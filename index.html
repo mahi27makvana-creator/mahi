@@ -1,18 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <title>Smart Serve Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="min-h-screen flex items-center justify-center bg-white">
 
-  <div class="bg-slate-800 text-white px-8 py-6 rounded-2xl border-4 border-red-500">
-    <p class="text-lg">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima harum vitae dignissimos ex cupiditate odio.
-    </p>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white shadow">
+    <div class="container mx-auto px-5 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">Smart Serve Solutions</a>
+      <nav class="space-x-4">
+  <a href="index.html" class="hover:text-indigo-200">Home</a>
+  <a href="about.html" class="hover:text-indigo-200">About Us</a>
+  <a href="services.html" class="hover:text-indigo-200">Services</a>
+  <a href="contact.html" class="hover:text-indigo-200">Contact</a>
+  <a href="login.html" class="hover:text-indigo-200 font-semibold">Login</a>
+  <a href="signup.html" class="hover:text-indigo-200 font-semibold">Sign Up</a>
+</nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <!-- <section class="bg-cover bg-center h-screen" style="background-image: url('images/hero.jpg');">
+    <div class="bg-black bg-opacity-50 h-full flex items-center">
+      <div class="container mx-auto text-center text-white px-5">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Empowering Business With Smart Solutions</h1>
+        <p class="text-lg mb-6">We drive business growth with smart data, technology & digital services across industries.</p>
+        <a href="services.html"
+           class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded text-white font-semibold">
+           Explore Services
+        </a>
+      </div>
+    </div>
+  </section> -->
+  <!-- Hero Section with Background Image -->
+<section class="relative bg-cover bg-center h-screen" style="background-image: url('https://images.unsplash.com/photo-1666930398504-e747d9155071?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+  <!-- Dark overlay for readability -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center">
+    <div class="container mx-auto text-center px-5">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Empowering Business With Smart Solutions</h1>
+      <p class="text-lg md:text-xl text-white mb-6">
+        We drive business growth with smart data, technology & digital services across industries.
+      </p>
+      <a href="services.html" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded text-white font-semibold">
+        Explore Services
+      </a>
+    </div>
   </div>
+</section>
+
+
+  <!-- TRUSTED STATS -->
+  <section class="py-12 bg-white text-center">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="p-4"><h2 class="text-3xl font-bold text-indigo-700">140+</h2><p>5 Star Reviews</p></div>
+      <div class="p-4"><h2 class="text-3xl font-bold text-indigo-700">248</h2><p>Yelp Reviews</p></div>
+      <div class="p-4"><h2 class="text-3xl font-bold text-indigo-700">1248</h2><p>Google Reviews</p></div>
+      <div class="p-4"><h2 class="text-3xl font-bold text-indigo-700">100+</h2><p>Global Partners</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-12 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">What Clients Say</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow">
+          <img src="images/testimonial-1.jpg" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <p>“Transformed our data management.”</p>
+          <p class="mt-2 font-semibold">– Jeniffer Smith</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <img src="images/testimonial-2.jpg" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <p>“Top-notch tailored solutions.”</p>
+          <p class="mt-2 font-semibold">– Pamela Duncan</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <img src="images/testimonial-3.jpg" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <p>“Helped streamline business processes.”</p>
+          <p class="mt-2 font-semibold">– Steve Tailor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-800 text-white text-center p-6">
+    © 2025 Smart Serve Solutions
+  </footer>
 
 </body>
 </html>

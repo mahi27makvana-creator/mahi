@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white p-4">
+    <div class="container mx-auto">
+      <a href="index.html" class="font-bold text-xl">Smart Serve Solutions</a>
+    </div>
+  </header>
+
+  <!-- ABOUT CONTENT -->
+  <section class="container mx-auto py-12 px-5">
+    <h2 class="text-3xl font-bold text-center mb-6">About Smart Serve Solutions</h2>
+    <p class="text-gray-700 leading-relaxed">
+      At Smart Serve Solutions, we specialize in delivering seamless, accurate, and efficient business solutions tailored to the needs of modern enterprises — including data management, legal & technology services, software solutions, title insurance, real estate data entry, corporate training, and digital branding & design. :contentReference[oaicite:1]{index=1}
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-800 text-white text-center p-6">
+    © 2025 Smart Serve Solutions
+  </footer>
+
+</body>
+</html>
